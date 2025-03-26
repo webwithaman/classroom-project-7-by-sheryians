@@ -4,4 +4,4 @@ Color Clash: Test Your Luck is a fun and interactive web game where users genera
 
 ## Live Demo
 
-You can see a live demo of this website ()
+You can see a live demo of this website (https://color-clash-match-it.netlify.app/)
