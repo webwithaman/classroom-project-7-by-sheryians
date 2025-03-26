@@ -44,15 +44,12 @@ html {
   font-weight: 600;
   font-size: 1.8rem;
   color: #2f3640;
-}
-
-.game-state-message-animate {
   animation: game-state-message-animate 1.2s linear infinite alternate;
 }
 
 @keyframes game-state-message-animate {
   100% {
-    transform: scale(1.1);
+    transform: scale(1.08);
   }
 }
 
@@ -64,24 +61,22 @@ html {
   gap: 2rem;
 }
 
+.boxes-container > div {
+  width: 27rem;
+}
+
 .boxes-container .box {
-  width: 25rem;
+  font-size: 1.2rem;
   aspect-ratio: 1/0.7;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-content: center;
   border: 1.5rem solid white;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.199);
   margin-bottom: 2rem;
 }
 
-/* Boxes Container End */
-
-/* Control Buttons Start */
 button {
-  width: 25rem;
+  width: 100%;
   padding: 1.2rem 1.6rem;
   color: #fff;
   font-size: 1.6rem;
@@ -117,6 +112,6 @@ button:active {
     background-color: #ff4c49;
   }
 }
-/* Control Buttons End */
+/* Boxes Container End */
 
 /* Page-Specific Styles End */
