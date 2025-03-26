@@ -2,10 +2,10 @@
 const colors = [
   "#f9ca24",
   "#f0932b",
-  "#be2edd",
-  "#535c68",
-  "#4834d4",
-  "#ff7979",
+  // "#be2edd",
+  // "#535c68",
+  // "#4834d4",
+  // "#ff7979",
 ];
 
 // Get Elements
@@ -44,6 +44,7 @@ generateColorbtn.addEventListener("click", function () {
 
     // Color has Generated
     hasColorGenerated = true;
+    isColorShuffling = false;
   }
 });
 
@@ -87,7 +88,7 @@ shuffleColorbtn.addEventListener("click", function () {
         // Play Shuffling Stop Sound
         shufflingStopSound.play();
 
-        // Performing or Calling Function to Check Result & Display Result After 2000 ms (2 Seconds)
+        // Performing or Calling Function to Check Result & Display Result After 1200 ms (1.2 Seconds)
         setTimeout(function () {
           // If Shuffled Color Matched to Target Color
           if (
@@ -125,7 +126,7 @@ shuffleColorbtn.addEventListener("click", function () {
             // Play Mis Match Sound
             misMatchSound.play();
           }
-        }, 2000);
+        }, 1200);
 
         return;
       }
