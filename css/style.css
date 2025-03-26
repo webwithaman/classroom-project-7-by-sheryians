@@ -23,7 +23,6 @@ html {
   padding: 1.5rem;
   min-height: 100vh;
   background-color: #f5f6fa;
-  /* background-color: #dff9fb; */
   display: flex;
   flex-direction: column;
   justify-content: center;

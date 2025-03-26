@@ -1,6 +1,6 @@
 ## Classroom Project 7 by Sheryians Coding School
 
-This is a simple game, Mysterious Box: Find Doraemon, a responsive game where the user must find the correct box containing Doraemon within 2 chances. The game includes interactive sounds for selecting the wrong box, finding the correct one, and moving between boxes. Control buttons allow navigation (Next, Previous) and the option to open a box or restart the game.
+Color Clash: Test Your Luck is a fun and interactive web game where users generate a random target color and shuffle through colors to match it, testing their luck. Built using JavaScript and DOM manipulation, the game features dynamic color changes, sound effects for an engaging experience, and responsive design to ensure smooth gameplay on all devices. With visual and audio feedback, players are immersed in an exciting challenge to find the perfect match!
 
 ## Live Demo
 
